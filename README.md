@@ -11,7 +11,7 @@ Este proyecto es una tienda de camisetas que muestra iconos representativos de l
 
 ## Captura de Pantalla de Inicio
 
-![captura de pantalla de inicio](img/captura_inicio.PNG)
+![captura de pantalla de inicio](img/captura_inicio-min.PNG)
 
 ## Autor
 
