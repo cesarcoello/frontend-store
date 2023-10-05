@@ -9,8 +9,12 @@ Este proyecto es una tienda de camisetas que muestra iconos representativos de l
 - Código HTML y CSS bien estructurado y comentado.
 - Fácil de personalizar y ampliar con nuevas camisetas e iconos.
 
-## Capturas de Pantalla
+## Captura de Pantalla de Inicio
 
 ![captura de pantalla de inicio](img/captura_inicio.PNG)
+
+## Autor
+
+- Este proyecto fue desarrollado por [yulyus-qaysar](github.com/yulyus-qaysar).
 
 
