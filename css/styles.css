@@ -1,8 +1,8 @@
 :root{
-    --primario: #9C27B2;
-    --primario-oscuro:#89119D;
-    --secundario: #FFCE00;
-    --secundario-oscuro: rgb(233, 287, 2);
+    --primario: #eaeaea;
+    --primario-oscuro:#c4c4c4;
+    --secundario: #292d3e;
+    --secundario-oscuro: #3a4162;
     --blanco: #FFF;
     --negro: #000;
 
@@ -179,6 +179,10 @@ h3{
     display: grid;
 }
 
+.nosotros__contenido p{
+    color: var(--secundario);
+}
+
 @media (min-width: 768px ){
     .nosotros{
         display: gird;
@@ -197,6 +201,10 @@ h3{
     .nosotros__imagen{
         grid-column: 2 / 3;
     }
+}
+
+.comprar__titulo{
+    box-shadow: 0px 180px 121px -14px rgba(0,0,0, 0.8);
 }
 
 /* Bloques  */
@@ -220,6 +228,11 @@ h3{
 .bloque__titulo{
     margin: 0;
 }
+ 
+.bloque__contenido{
+    color: var(--secundario);
+}
+
 
 /* Pagina del Producto  */
 
@@ -231,6 +244,10 @@ h3{
     }
 }
 
+.camisa__contenido p{
+    color: var(--secundario);
+}
+
 .formulario{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -240,7 +257,7 @@ h3{
 .formulario__campo{
     border: 1rem solid var(--primario-oscuro);
     background-color: transparent;
-    color: var(--blanco);
+    color: var(--secundario);
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
@@ -250,6 +267,7 @@ h3{
 .formulario__submit{
     background-color: var(--secundario);
     border: none;
+    color: var(--blanco);
     font-size: 2rem;
     font-family: var(--fuente-principal);
     padding: 2rem;
